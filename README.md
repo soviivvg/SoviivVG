@@ -1,6 +1,10 @@
-### Hi there 👋
+![Metrics](https://github.com/soviivvg/SoviivVG/blob/main/github-metrics.svg)
 
 <!--
+
+### Hi there 👋
+
+
 **soviivvg/SoviivVG** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
