@@ -25,14 +25,15 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_sections: most-used                          # Display most used and recently used
           plugin_languages_details: bytes-size, percentage              # Additionally display total bytes size and percentage
-          plugin_languages_threshold: 2%                                # Hides all languages less than 2%
+          plugin_languages_threshold: 4%                                # Hides all languages less than 2%
           plugin_languages_analysis_timeout: 15                         # Set maximum time for indepth analysis
           plugin_languages_categories: programming                      # Display only languages that match these categories in most-used section
           plugin_languages_recent_categories: markup, programming, data # Display only languages that match these categories in recently-used section
           plugin_languages_recent_load: 500                             # Load up to 500 events to compute recently used stats
-          plugin_languages_recent_days: 14                              # Limit recently used stats to last week
+          plugin_languages_recent_days: 30                              # Limit recently used stats to last week
+          # ... Wakatime Plugin
           plugin_wakatime: yes
-          plugin_wakatime_days: 180
+          plugin_wakatime_days: 30
           plugin_wakatime_limit: 3
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
