@@ -15,15 +15,31 @@ jobs:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
           commits_authoring: soviivvg@users.noreply.github.com           # Surnames or email addresses used to identify your commits
+          user: SoviivVG
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Regina
           # ... Most Used Languages
           plugin_languages: yes
           plugin_languages_limit: 8                                     # Display up to 8 languages
-          plugin_languages_sections: most-used, recently-used           # Display most used and recently used
+          plugin_languages_colors: github
+          plugin_languages_sections: most-used                          # Display most used and recently used
           plugin_languages_details: bytes-size, percentage              # Additionally display total bytes size and percentage
           plugin_languages_threshold: 2%                                # Hides all languages less than 2%
           plugin_languages_analysis_timeout: 15                         # Set maximum time for indepth analysis
           plugin_languages_categories: programming                      # Display only languages that match these categories in most-used section
           plugin_languages_recent_categories: markup, programming, data # Display only languages that match these categories in recently-used section
           plugin_languages_recent_load: 500                             # Load up to 500 events to compute recently used stats
-          plugin_languages_recent_days: 7                               # Limit recently used stats to last week
-
+          plugin_languages_recent_days: 14                              # Limit recently used stats to last week
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_from: 200
+          plugin_lines: yes
+          plugin_wakatime: yes
+          plugin_wakatime_days: 7
+          plugin_wakatime_limit: 5
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs
+          plugin_wakatime_url: https://wakatime.com/@SoviivVG
+          plugin_wakatime_user: SoviivVG
