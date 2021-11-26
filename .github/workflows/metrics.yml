@@ -41,5 +41,5 @@ jobs:
           plugin_wakatime_days: 7
           plugin_wakatime_limit: 5
           plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs
-          plugin_wakatime_url: https://wakatime.com/@SoviivVG
+          plugin_wakatime_url: https://wakatime.com/@46faf75d-0ec8-4522-a615-6aac17aefdc4
           plugin_wakatime_user: SoviivVG
